@@ -1,0 +1,173 @@
+{
+  "summary": {
+    "trades": 364,
+    "win_rate_%": 37.09,
+    "expectancy_R": 0.07,
+    "profit_factor": 1.118,
+    "MDD_R": -21.144,
+    "total_R": 25.563
+  },
+  "dbg": {
+    "cand": 6430,
+    "blocked_session": 0,
+    "blocked_regime": 0,
+    "no_side": 62,
+    "micro_fail": 25,
+    "gate_fail": 112,
+    "entered": 364
+  },
+  "entered_examples": [
+    {
+      "ts": "2025-07-13 11:05:00+00:00",
+      "side": "short",
+      "regime": "range",
+      "score_raw": 80.0,
+      "thr": 75.0
+    },
+    {
+      "ts": "2025-07-13 13:41:00+00:00",
+      "side": "short",
+      "regime": "range",
+      "score_raw": 81.25,
+      "thr": 75.0
+    },
+    {
+      "ts": "2025-07-13 15:43:00+00:00",
+      "side": "long",
+      "regime": "range",
+      "score_raw": 75.0,
+      "thr": 75.0
+    },
+    {
+      "ts": "2025-07-13 17:57:00+00:00",
+      "side": "long",
+      "regime": "range",
+      "score_raw": 85.0,
+      "thr": 70.0
+    },
+    {
+      "ts": "2025-07-13 19:59:00+00:00",
+      "side": "long",
+      "regime": "range",
+      "score_raw": 75.0,
+      "thr": 70.0
+    },
+    {
+      "ts": "2025-07-13 22:00:00+00:00",
+      "side": "long",
+      "regime": "range",
+      "score_raw": 76.25,
+      "thr": 70.0
+    },
+    {
+      "ts": "2025-07-13 23:47:00+00:00",
+      "side": "short",
+      "regime": "range",
+      "score_raw": 76.25,
+      "thr": 70.0
+    },
+    {
+      "ts": "2025-07-14 01:42:00+00:00",
+      "side": "short",
+      "regime": "range",
+      "score_raw": 86.25,
+      "thr": 70.0
+    },
+    {
+      "ts": "2025-07-14 03:38:00+00:00",
+      "side": "short",
+      "regime": "range",
+      "score_raw": 81.25,
+      "thr": 70.0
+    },
+    {
+      "ts": "2025-07-14 05:21:00+00:00",
+      "side": "short",
+      "regime": "range",
+      "score_raw": 76.25,
+      "thr": 70.0
+    }
+  ],
+  "skipped_examples": [
+    {
+      "ts": "2025-07-13 10:57:00+00:00",
+      "why": "hard_gate_fail",
+      "regime": "range",
+      "side": "long",
+      "score_raw": 75.0,
+      "thr": 75.0
+    },
+    {
+      "ts": "2025-07-13 13:02:00+00:00",
+      "why": "hard_gate_fail",
+      "regime": "range",
+      "side": "short",
+      "score_raw": 75.0,
+      "thr": 75.0
+    },
+    {
+      "ts": "2025-07-13 17:55:00+00:00",
+      "why": "no_side",
+      "regime": "range",
+      "score_raw": 91.25,
+      "thr": 70.0
+    },
+    {
+      "ts": "2025-07-13 21:41:00+00:00",
+      "why": "hard_gate_fail",
+      "regime": "range",
+      "side": "long",
+      "score_raw": 76.25,
+      "thr": 70.0
+    },
+    {
+      "ts": "2025-07-13 21:42:00+00:00",
+      "why": "no_side",
+      "regime": "range",
+      "score_raw": 76.25,
+      "thr": 70.0
+    },
+    {
+      "ts": "2025-07-13 21:51:00+00:00",
+      "why": "no_side",
+      "regime": "range",
+      "score_raw": 77.25,
+      "thr": 70.0
+    },
+    {
+      "ts": "2025-07-13 21:57:00+00:00",
+      "why": "no_side",
+      "regime": "range",
+      "score_raw": 76.25,
+      "thr": 70.0
+    },
+    {
+      "ts": "2025-07-14 01:29:00+00:00",
+      "why": "hard_gate_fail",
+      "regime": "range",
+      "side": "long",
+      "score_raw": 76.0,
+      "thr": 70.0
+    },
+    {
+      "ts": "2025-07-14 01:30:00+00:00",
+      "why": "hard_gate_fail",
+      "regime": "range",
+      "side": "long",
+      "score_raw": 76.0,
+      "thr": 70.0
+    },
+    {
+      "ts": "2025-07-14 08:56:00+00:00",
+      "why": "micro_fail",
+      "regime": "range",
+      "side": "long",
+      "score_raw": 81.0,
+      "thr": 70.0
+    }
+  ],
+  "paths": {
+    "csv": "C:\\trading\\BTCUSDT_Algo\\logs\\trades_20250814_024937.csv",
+    "json": "C:\\trading\\BTCUSDT_Algo\\logs\\last_report_20250814_024937.json"
+  }
+}

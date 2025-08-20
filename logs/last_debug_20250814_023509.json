@@ -1,0 +1,97 @@
+{
+  "summary": {},
+  "dbg": {
+    "cand": 43181,
+    "blocked_session": 0,
+    "blocked_regime": 0,
+    "no_side": 702,
+    "micro_fail": 148,
+    "gate_fail": 5401,
+    "entered": 0
+  },
+  "entered_examples": [],
+  "skipped_examples": [
+    {
+      "ts": "2025-07-13 10:57:00+00:00",
+      "why": "hard_gate_fail",
+      "regime": "range",
+      "side": "long",
+      "score_raw": 75.0,
+      "thr": 75.0
+    },
+    {
+      "ts": "2025-07-13 11:05:00+00:00",
+      "why": "hard_gate_fail",
+      "regime": "range",
+      "side": "short",
+      "score_raw": 80.0,
+      "thr": 75.0
+    },
+    {
+      "ts": "2025-07-13 11:06:00+00:00",
+      "why": "hard_gate_fail",
+      "regime": "range",
+      "side": "short",
+      "score_raw": 75.0,
+      "thr": 75.0
+    },
+    {
+      "ts": "2025-07-13 11:07:00+00:00",
+      "why": "hard_gate_fail",
+      "regime": "range",
+      "side": "short",
+      "score_raw": 75.0,
+      "thr": 75.0
+    },
+    {
+      "ts": "2025-07-13 11:08:00+00:00",
+      "why": "hard_gate_fail",
+      "regime": "range",
+      "side": "short",
+      "score_raw": 75.0,
+      "thr": 75.0
+    },
+    {
+      "ts": "2025-07-13 11:24:00+00:00",
+      "why": "hard_gate_fail",
+      "regime": "range",
+      "side": "short",
+      "score_raw": 75.0,
+      "thr": 75.0
+    },
+    {
+      "ts": "2025-07-13 11:25:00+00:00",
+      "why": "hard_gate_fail",
+      "regime": "range",
+      "side": "short",
+      "score_raw": 80.0,
+      "thr": 75.0
+    },
+    {
+      "ts": "2025-07-13 11:26:00+00:00",
+      "why": "hard_gate_fail",
+      "regime": "range",
+      "side": "short",
+      "score_raw": 75.0,
+      "thr": 75.0
+    },
+    {
+      "ts": "2025-07-13 11:30:00+00:00",
+      "why": "no_side",
+      "regime": "range",
+      "score_raw": 75.0,
+      "thr": 75.0
+    },
+    {
+      "ts": "2025-07-13 11:31:00+00:00",
+      "why": "no_side",
+      "regime": "range",
+      "score_raw": 75.0,
+      "thr": 75.0
+    }
+  ],
+  "paths": {
+    "csv": "C:\\trading\\BTCUSDT_Algo\\logs\\trades_20250814_023509.csv",
+    "json": "C:\\trading\\BTCUSDT_Algo\\logs\\last_report_20250814_023509.json"
+  }
+}

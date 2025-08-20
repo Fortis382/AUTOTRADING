@@ -1,0 +1,26 @@
+{
+  "headline": {
+    "n_events": 0,
+    "R_sum": 0.0,
+    "E_R": 0.0,
+    "win_rate": 0.0,
+    "profit_factor": 0.0,
+    "max_dd_R": 0.0,
+    "trade_sharpe": 0.0,
+    "best_R": 0.0,
+    "worst_R": 0.0,
+    "win_streak_max": 0,
+    "lose_streak_max": 0
+  },
+  "breakdowns": {
+    "by_regime": [],
+    "by_session": [],
+    "by_side": [],
+    "by_strategy": [],
+    "by_reason": [],
+    "by_hour": [],
+    "by_date": [],
+    "mfe_mae": {},
+    "equity_tail": []
+  }
+}

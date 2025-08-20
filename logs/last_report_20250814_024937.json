@@ -1,0 +1,67 @@
+{
+  "headline": {
+    "trades": 364,
+    "win_rate_%": 37.09,
+    "expectancy_R": 0.07,
+    "profit_factor": 1.118,
+    "MDD_R": -21.144,
+    "total_R": 25.563
+  },
+  "breakdowns": {
+    "session": [
+      {
+        "session": "asia",
+        "count": 121,
+        "sum": 4.054799999999991,
+        "mean": 0.03351074380165282
+      },
+      {
+        "session": "europe",
+        "count": 124,
+        "sum": 20.85119999999999,
+        "mean": 0.16815483870967735
+      },
+      {
+        "session": "us",
+        "count": 119,
+        "sum": 0.6571999999999911,
+        "mean": 0.005522689075630177
+      }
+    ],
+    "regime": [
+      {
+        "regime": "range",
+        "count": 364,
+        "sum": 25.563199999999973,
+        "mean": 0.07022857142857136
+      }
+    ],
+    "strategy": [
+      {
+        "strategy": "RangeRevert",
+        "count": 364,
+        "sum": 25.563199999999973,
+        "mean": 0.07022857142857136
+      }
+    ],
+    "reason": [
+      {
+        "reason": "SL",
+        "count": 229,
+        "sum": -217.27480000000003,
+        "mean": -0.9487982532751092
+      },
+      {
+        "reason": "TP",
+        "count": 135,
+        "sum": 242.838,
+        "mean": 1.7988
+      }
+    ],
+    "mae_mfe": {
+      "avg_mae_R": -1.2817695180265787,
+      "avg_mfe_R": 1.1632479392567483,
+      "p95_drawdown_R": 0.0
+    }
+  }
+}

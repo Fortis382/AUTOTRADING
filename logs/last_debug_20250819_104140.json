@@ -1,0 +1,334 @@
+{
+  "summary": {
+    "n_events": 328,
+    "R_sum": -676.598849,
+    "E_R": -2.062801368902439,
+    "win_rate": 0.19207317073170732,
+    "profit_factor": 0.0927437312343641,
+    "max_dd_R": -672.1360369999996,
+    "trade_sharpe": -0.9776063482672662,
+    "daily_sharpe": -2.2904216960434463,
+    "best_R": 2.507449,
+    "worst_R": -10.518087,
+    "win_streak_max": 3,
+    "lose_streak_max": 29
+  },
+  "dbg": {
+    "cand": 20816,
+    "blocked_session": 0,
+    "blocked_regime": 115,
+    "no_side": 1,
+    "micro_fail": 67,
+    "mtf_rsi_block": 51,
+    "mtf_ema_block": 0,
+    "macd_sign_block": 13,
+    "range_bbw_block": 0,
+    "range_atr_block": 0,
+    "gate_fail": 179,
+    "entered": 328
+  },
+  "entered_examples": [
+    {
+      "ts": "2025-07-13 11:06:00+00:00",
+      "side": "long",
+      "regime": "trend",
+      "score_raw": 70.36,
+      "thr": 70.0,
+      "score_eff": 70.36
+    },
+    {
+      "ts": "2025-07-13 12:52:00+00:00",
+      "side": "long",
+      "regime": "trend",
+      "score_raw": 76.58,
+      "thr": 70.0,
+      "score_eff": 76.58
+    },
+    {
+      "ts": "2025-07-13 16:22:00+00:00",
+      "side": "long",
+      "regime": "trend",
+      "score_raw": 73.18,
+      "thr": 70.0,
+      "score_eff": 73.18
+    },
+    {
+      "ts": "2025-07-13 18:24:00+00:00",
+      "side": "long",
+      "regime": "trend",
+      "score_raw": 73.91,
+      "thr": 70.0,
+      "score_eff": 73.91
+    },
+    {
+      "ts": "2025-07-13 20:31:00+00:00",
+      "side": "long",
+      "regime": "trend",
+      "score_raw": 77.72,
+      "thr": 70.0,
+      "score_eff": 77.72
+    },
+    {
+      "ts": "2025-07-13 21:37:00+00:00",
+      "side": "short",
+      "regime": "trend",
+      "score_raw": 73.41,
+      "thr": 70.0,
+      "score_eff": 73.41
+    },
+    {
+      "ts": "2025-07-13 23:51:00+00:00",
+      "side": "long",
+      "regime": "trend",
+      "score_raw": 80.76,
+      "thr": 70.0,
+      "score_eff": 80.76
+    },
+    {
+      "ts": "2025-07-14 02:22:00+00:00",
+      "side": "long",
+      "regime": "trend",
+      "score_raw": 72.87,
+      "thr": 70.0,
+      "score_eff": 72.87
+    },
+    {
+      "ts": "2025-07-14 03:42:00+00:00",
+      "side": "long",
+      "regime": "trend",
+      "score_raw": 84.66,
+      "thr": 70.0,
+      "score_eff": 84.66
+    },
+    {
+      "ts": "2025-07-14 05:15:00+00:00",
+      "side": "long",
+      "regime": "trend",
+      "score_raw": 73.51,
+      "thr": 70.0,
+      "score_eff": 73.51
+    }
+  ],
+  "skipped_examples": [
+    {
+      "ts": "2025-07-13 12:51:00+00:00",
+      "why": "micro_fail",
+      "regime": "trend",
+      "side": "long",
+      "score_raw": 71.88,
+      "thr": 70.0
+    },
+    {
+      "ts": "2025-07-13 14:18:00+00:00",
+      "why": "blocked_regime",
+      "regime": "range",
+      "side": "short",
+      "score_raw": 76.6,
+      "thr": 70.0
+    },
+    {
+      "ts": "2025-07-13 14:19:00+00:00",
+      "why": "micro_fail",
+      "regime": "trend",
+      "side": "long",
+      "score_raw": 85.78,
+      "thr": 70.0
+    },
+    {
+      "ts": "2025-07-13 14:20:00+00:00",
+      "why": "micro_fail",
+      "regime": "trend",
+      "side": "long",
+      "score_raw": 89.28,
+      "thr": 70.0
+    },
+    {
+      "ts": "2025-07-13 14:21:00+00:00",
+      "why": "micro_fail",
+      "regime": "trend",
+      "side": "long",
+      "score_raw": 89.18,
+      "thr": 70.0
+    },
+    {
+      "ts": "2025-07-13 14:22:00+00:00",
+      "why": "micro_fail",
+      "regime": "trend",
+      "side": "long",
+      "score_raw": 87.44,
+      "thr": 70.0
+    },
+    {
+      "ts": "2025-07-13 14:23:00+00:00",
+      "why": "micro_fail",
+      "regime": "trend",
+      "side": "long",
+      "score_raw": 82.33,
+      "thr": 70.0
+    },
+    {
+      "ts": "2025-07-13 14:24:00+00:00",
+      "why": "micro_fail",
+      "regime": "trend",
+      "side": "long",
+      "score_raw": 84.25,
+      "thr": 70.0
+    },
+    {
+      "ts": "2025-07-13 14:25:00+00:00",
+      "why": "micro_fail",
+      "regime": "trend",
+      "side": "long",
+      "score_raw": 79.74,
+      "thr": 70.0
+    },
+    {
+      "ts": "2025-07-13 14:48:00+00:00",
+      "why": "mtf_rsi_block",
+      "regime": "trend",
+      "side": "short",
+      "score_raw": 80.33,
+      "thr": 70.0
+    }
+  ],
+  "dists": {
+    "reason": {
+      "TP": 67,
+      "SL": 259,
+      "SOFT_TP": 2
+    },
+    "regime": {
+      "trend": 328
+    },
+    "side": {
+      "long": 167,
+      "short": 161
+    }
+  },
+  "cfg_filters": {
+    "trade_in_regimes": [
+      "trend"
+    ],
+    "require_mtf": true,
+    "mtf_apply_in": [
+      "trend"
+    ],
+    "mtf_rsi_mode": "or",
+    "mtf_rsi_min": 56.0,
+    "mtf_use_ema_gate": true,
+    "require_macd_hist_sign": true,
+    "macd_apply_in": [
+      "trend"
+    ],
+    "macd_deadband": 0.0,
+    "range_edge_low": 0.25,
+    "range_edge_high": 0.75,
+    "range_rsi_long_max": 43,
+    "range_rsi_short_min": 57,
+    "range_bbw_min": 0.0009,
+    "range_bbw_max": 0.005,
+    "range_atr_pct_max": 0.006
+  },
+  "cfg_thresholding": {
+    "mode": "adaptive",
+    "adaptive_percentile": 0.88,
+    "window_bars": 4320,
+    "floor": 70,
+    "compare": "session_scaled"
+  },
+  "cfg_risk": {
+    "rr_base": [
+      1,
+      3
+    ],
+    "rr_trend": [
+      1,
+      3.2
+    ],
+    "rr_range": [
+      1,
+      1.8
+    ],
+    "atr_sl_mult_trend": 1.3,
+    "atr_sl_mult_range": 0.9,
+    "max_hold_minutes": 360,
+    "fees_bps_per_side": 6
+  },
+  "cfg_trailing": {
+    "atr_trail_mult_trend": 1.6,
+    "atr_trail_mult_range": 1.2,
+    "enable_rsi": true,
+    "rsi_on_long": 60,
+    "rsi_on_short": 40,
+    "trail_start_R": 1.6,
+    "wait_first_ladder": false
+  },
+  "cfg_position": {
+    "add_on_max": 0,
+    "ladder": [],
+    "be_at_R": 1.5,
+    "partials": [
+      {
+        "trigger_R": 1.0,
+        "pct": 30
+      },
+      {
+        "trigger_R": 2.0,
+        "pct": 30
+      }
+    ]
+  },
+  "cfg_session": {
+    "block": [],
+    "score_mult": {
+      "US": 1.0,
+      "EU": 1.0,
+      "ASIA": 1.0
+    },
+    "risk_adj": {
+      "US": 1.0,
+      "EU": 1.0,
+      "ASIA": 1.0
+    }
+  },
+  "cfg_micro": {
+    "break_lookback": 8,
+    "rsi_on": 55.0
+  },
+  "cfg_regime": {
+    "trend_adx_min": 22,
+    "range_bb_width_max": 0.00165,
+    "ema_slope_lookback": 5,
+    "ema_slope_min": 0.0007
+  },
+  "cfg_indicators": {
+    "use_pandas_ta": true,
+    "rsi_length": 14,
+    "bb_length": 20,
+    "bb_std": 2.0,
+    "atr_length": 14,
+    "ema_length": 21,
+    "adx_length": 14,
+    "macd": {
+      "fast": 12,
+      "slow": 26,
+      "signal": 9
+    },
+    "stoch": {
+      "k": 14,
+      "d": 3,
+      "smooth": 3
+    },
+    "vol_ma_length": 50,
+    "bb_squeeze_th": 0.028,
+    "with_adx": true,
+    "with_stoch": false,
+    "with_cci": false,
+    "with_ichimoku": false
+  },
+  "compare_mode": "session_scaled",
+  "paths": {
+    "csv": "C:\\trading\\BTCUSDT_Algo\\logs\\trades_20250819_104140.csv",
+    "json": "C:\\trading\\BTCUSDT_Algo\\logs\\last_report_20250819_104140.json"
+  }
+}
